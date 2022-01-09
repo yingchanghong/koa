@@ -1,0 +1,29 @@
+{
+  "name": "koa",
+  "version": "1.0.0",
+  "description": "koa+ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "serve": "nodemon --watch src/**/* -e ts,tsx --exec ts-node ./src/index.ts",
+    "dev": "nodemon  ./src/index.ts"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/yingchanghong/koa.git",
+  "author": "‘1792827383@q <1792827383@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mysql": "^2.15.20",
+    "dotenv": "^10.0.0",
+    "husky": "^7.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-token": "^1.0.9",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-jwt": "^4.0.3",
+    "koa-router": "^10.1.1",
+    "log4js": "^6.3.0",
+    "mysql": "^2.18.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
